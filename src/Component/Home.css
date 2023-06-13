@@ -1,0 +1,46 @@
+.head{
+	display: grid;
+	align-items: start;
+	justify-content: center;
+	text-align: center;
+	padding: 3rem;
+	font-size: 1.2rem;
+}
+
+.home-page{
+	line-height: 1.5;
+	min-height: 20rem;
+	padding-left: 10rem;
+	padding-right: 10rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2rem;
+	margin: 5rem;
+}
+
+.link{
+    color: inherit;
+    text-decoration: none;
+    transition: .25s ease;
+}
+
+div .home-page{
+	display: flex;
+	flex-wrap: wrap;
+	
+	.link-container {
+		margin-left: .75em;
+		margin-right: .75em;
+	}
+	
+	&:hover {
+	.link {
+			color: #CCC;
+			&:hover {
+				color: #000;
+				box-shadow: 0 3px 0 0 currentcolor;
+			}
+		}
+	}
+}
