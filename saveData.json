@@ -1,0 +1,52 @@
+{
+  "saveData": [
+    {
+      "Index_no": "s01",
+      "Name": "WMN Perera",
+      "course": "Physics",
+      "Phone_no": "011",
+      "City": "Colombo",
+      "id": 1
+    },
+    {
+      "Index_no": "s02",
+      "Name": "ARL Zabaa",
+      "course": "Physics",
+      "Phone_no": "012",
+      "City": "Colombo",
+      "id": 2
+    },
+    {
+      "Index_no": "s03",
+      "Name": "ABC De Silva",
+      "course": "Biology",
+      "Phone_no": "011",
+      "City": "Matara",
+      "id": 3
+    },
+    {
+      "Index_no": "s04",
+      "Name": "MNS Zoiza",
+      "course": "Chemistry",
+      "Phone_no": "012",
+      "City": "Galle",
+      "id": 4
+    },
+    {
+      "Index_no": "s05",
+      "Name": "XBA Ranepura",
+      "course": "Maths",
+      "Phone_no": "013",
+      "City": "Kadawatha",
+      "id": 5
+    },
+    {
+      "Index_no": "s06",
+      "Name": "RDPL Ranepura",
+      "course": "Computer Science",
+      "Phone_no": "014",
+      "City": "Kadawatha",
+      "id": 6
+    }
+  ]
+}

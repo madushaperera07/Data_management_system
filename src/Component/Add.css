@@ -1,0 +1,19 @@
+.add-container{
+    display: grid;
+    align-items: start;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2rem;
+    padding: 4rem;
+}
+.input-container{
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    font-size: 1.5rem;
+}
+
+.input-container input{
+    margin-left: 4rem;
+    
+}
