@@ -13,7 +13,7 @@ function Add() {
   return (
     <div className='add-container'>
       <div>
-        <h1>Add Data</h1>
+        <h1 className='add-header'>Add Data</h1>
       </div>
       <div>
       <div>
@@ -57,11 +57,11 @@ function Add() {
           e.preventDefault()
 
           const myData = ({
-            Index_no : index,
-            Name : name,
-            course : course,
-            Phone_no : phone,
-            City : city
+            index,
+            name,
+            course,
+            phone,
+            city
           })
 
           fetch("http://localhost:9000/saveData" ,{

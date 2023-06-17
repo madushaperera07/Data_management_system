@@ -1,0 +1,21 @@
+
+
+.list-container{
+    display: grid;
+    align-items: start;
+    justify-content: center;
+}
+
+.list-header{
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+th, td {
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.3rem 4rem 0.3rem 4rem;
+
+}
