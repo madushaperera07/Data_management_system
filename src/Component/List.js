@@ -16,7 +16,7 @@ const List = () => {
     })
   },[])
 
-  console.log(myData)
+
 
   return (
     <div className='list-container'>

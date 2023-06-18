@@ -39,6 +39,14 @@
       "phone": "014",
       "city": "jaffna",
       "id": 5
+    },
+    {
+      "index": "s06",
+      "name": "wcn perera",
+      "course": "maths",
+      "phone": "012",
+      "city": "ragama",
+      "id": 6
     }
   ]
 }
