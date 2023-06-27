@@ -23,6 +23,22 @@
       "phone": "012",
       "city": "rajagiriya",
       "id": 4
+    },
+    {
+      "index": "s05",
+      "name": "cbs kavindu",
+      "course": "phy6",
+      "phone": "013",
+      "city": "matara",
+      "id": 5
+    },
+    {
+      "index": "s06",
+      "name": "rds lasildu",
+      "course": "science",
+      "phone": "015",
+      "city": "ampara",
+      "id": 6
     }
   ]
 }
