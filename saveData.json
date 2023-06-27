@@ -17,36 +17,12 @@
       "id": 2
     },
     {
-      "index": "s03",
-      "name": "rd ranepura",
-      "course": "maths",
-      "phone": "013",
-      "city": "kadawatha",
-      "id": 3
-    },
-    {
       "index": "s04",
       "name": "wcn perera",
       "course": "combined maths",
       "phone": "012",
       "city": "rajagiriya",
       "id": 4
-    },
-    {
-      "index": "s05",
-      "name": "abc perera",
-      "course": "demogrophy",
-      "phone": "014",
-      "city": "jaffna",
-      "id": 5
-    },
-    {
-      "index": "s06",
-      "name": "wcn perera",
-      "course": "maths",
-      "phone": "012",
-      "city": "ragama",
-      "id": 6
     }
   ]
 }
