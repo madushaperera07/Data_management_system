@@ -4,3 +4,4 @@ now we can use
 --> Add option
 --> List option
 --> Read option
+--> Delete option
