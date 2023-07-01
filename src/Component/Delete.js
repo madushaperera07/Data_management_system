@@ -56,7 +56,7 @@ const Delete=()  => {
       }}/>
       </div>
       <div>
-        <button type='submit' onClick={()=>setSubmit((pre)=>pre===false?true:false)}>Submit</button>
+        <button type='submit' onClick={()=>setSubmit((pre)=>pre===false?true:false)}>Search</button>
       </div>
       <div>{
         myData&&(<div>

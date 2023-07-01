@@ -23,6 +23,14 @@
       "phone": "014",
       "city": "jaffna",
       "id": 3
+    },
+    {
+      "index": "s04",
+      "name": "nilakshan",
+      "course": "biology",
+      "phone": "015",
+      "city": "colombo",
+      "id": 4
     }
   ]
 }
