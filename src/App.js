@@ -11,7 +11,8 @@ import List from './Component/List';
 
 function App() {
   return (
-      <BrowserRouter>
+    <div>
+        <BrowserRouter>
         <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/Add" element={<Add/>}/>
@@ -21,6 +22,8 @@ function App() {
         <Route path="/List" element={<List/>}/>
         </Routes>
       </BrowserRouter>
+    </div>
+
 
   );
 }
