@@ -71,6 +71,13 @@ const Delete=()  => {
 <div>
         <button type='delete' onClick={()=>{
           deleteData(myData.id)
+          setapiId((pre)=>{
+            if(pre){
+              return ""
+            }else{
+              return pre
+            }
+          })
         }} >Delete</button>
       </div>
     </div>
