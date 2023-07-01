@@ -49,26 +49,41 @@ function Update() {
           <div>
             <label>Index Number</label>
           <input type='text' value={myData.index}
+          onChange={(e)=>{
+            setMydata({...myData, index: e.target.value})
+          }}
           />
           </div>
           <div>
           <label>Names with initials</label>
           <input type='text' value={myData.name}
+          onChange={(e)=>{
+            setMydata({...myData, name: e.target.value})
+          }}
           />
           </div>
           <div>
           <label>Course</label>
           <input type='text' value={myData.course}
+          onChange={(e)=>{
+            setMydata({...myData, course: e.target.value})
+          }}
           />
           </div>
           <div>          
             <label>Phone Number</label>
           <input type='text' value={myData.phone}
+          onChange={(e)=>{
+            setMydata({...myData, phone: e.target.value})
+          }}
           />
           </div>
           <div>          
             <label>City</label>
           <input type='text' value={myData.city}
+          onChange={(e)=>{
+            setMydata({...myData, city: e.target.value})
+          }}
           />
           </div>
           <div>
