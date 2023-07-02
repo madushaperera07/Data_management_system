@@ -1,31 +1,34 @@
 import React, { useEffect, useState } from 'react';
-
+import axios from 'axios';
 
 function Read() {
 
   const [apiId , setapiId] = useState("")
-  const [myData , setMydata] = useState({})
+  const [myData , setMydata] = useState({
+    index: "",
+    name: "",
+    course: "",
+    phone: "",
+    city: ""
+  })
   const [submit , setSubmit] = useState(false)
 
 
     useEffect(()=>{
-
-              const apiData = async()=>{
-          const res = await fetch(`http://localhost:9000/saveData/${apiId}`)
-          const data = await res.json()
-  
-          if(data){
-            setMydata(data)
-          }
-        }
-      
-        
-      if(apiId.length>0){
-
-        apiData()
-      }
-     // eslint-disable-next-line
+      axios.get(`http://localhost:9000/saveData/${apiId}`)
+      .then((res)=>{
+        setMydata({...myData , 
+        index : res.data.index,
+        name: res.data.name,
+        course: res.data.course,
+        phone: res.data.phone,
+        city: res.data.city})
+      }).catch((err)=>{
+        return err
+      })
+      // eslint-disable-next-line
     },[submit])
+    
 
 
   
