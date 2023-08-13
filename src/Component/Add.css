@@ -1,19 +1,52 @@
-.add-container{
+.add_container{
     display: grid;
     align-items: start;
     justify-content: center;
 }
 
-.add-header{
-    font-size: 2rem;
-    padding: 4rem;
-}
-.input-container{
-    margin: 0.5rem 0rem 0.5rem 0rem;
-    font-size: 1.5rem;
+.head_class{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin:3rem 0rem 3rem 0rem ;
 }
 
-.input-container input{
-    margin-left: 4rem;
-    
+.add_header{
+    font-size: 3rem;
+}
+
+.center_container{
+    width: 600px;
+    height: 350px;
+    background-color: darkgrey;
+    border-radius: 20px;
+}
+.input_container{
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.input_container input{
+    width: 250px;
+    font-size: 20px;
+}
+
+.button_container{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#input_container{
+    margin-top: 45px;
+}
+
+.button_data{
+    width: 150px;
+    margin-left: -50px;
 }

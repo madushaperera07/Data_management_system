@@ -5,13 +5,7 @@ import React, { useEffect, useState } from 'react';
 function Update() {
 
   const [apiId , setapiId] = useState("")
-  const [myData , setMydata] = useState({
-    index: "",
-    name: "",
-    course: "",
-    phone: "",
-    city: ""
-  })
+  const [myData , setMydata] = useState({})
   const [submit , setSubmit] = useState(false)
 
 
@@ -19,11 +13,12 @@ function Update() {
     useEffect(()=>{
       axios.get(`http://localhost:9000/saveData/${apiId}`)
       .then((res)=>{
-        setMydata({ ...myData , index : res.data.index,
+        setMydata({ ...myData , 
+        index : res.data.index,
         name: res.data.name,
-      course: res.data.course,
-    phone: res.data.phone,
-      city: res.data.city})
+        course: res.data.course,
+        phone: res.data.phone,
+        city: res.data.city})
       }).catch((err)=>{
         return err
       })

@@ -1,0 +1,20 @@
+{
+  "saveData": [
+    {
+      "index": "s01",
+      "name": "Madusha Nilakshan",
+      "course": "Physics",
+      "phone": "0776604304",
+      "city": "Rajagiriya",
+      "id": 1
+    },
+    {
+      "index": "s02",
+      "name": "Madusha Perera",
+      "course": "Chemistry",
+      "phone": "0714578123",
+      "city": "Rajagiriya",
+      "id": 2
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Add.css"
+import axios from 'axios';
 
 function Add() {
 
@@ -11,63 +12,61 @@ function Add() {
 
 
   return (
-    <div className='add-container'>
-      <div>
-        <h1 className='add-header'>Add Data</h1>
+    <div className='add_container'>
+      <div class="head_class">
+        <h1 className='add_header'>Add Data</h1>
       </div>
-      <div>
-      <div>
-        <div className='input-container'>
+
+      <div class="center_container" >
+        <form action='POST'>
+        <div className='input_container' id='input_container'>
         <label>Index Number</label>
       <input type='text' value={index}
       onChange={(e)=>{
         setIndex(e.target.value)
       }}/>
         </div>
-        <div className='input-container'>
+        <div className='input_container'>
         <label>Names with initials</label>
       <input type='text' value={name} 
       onChange={(e)=>{
         setName(e.target.value)
       }}/>
         </div>
-        <div className='input-container'>
+        <div className='input_container'>
         <label>Course</label>
       <input type='text'value={course}
       onChange={(e)=>{
         setCourse(e.target.value)
       }}/>
         </div>
-        <div className='input-container'>
+        <div className='input_container'>
         <label>Phone Number</label>
       <input type='name' value={phone}
       onChange={(e)=>{
         setPhone(e.target.value)
       }}/>
         </div>
-        <div className='input-container'>
+        <div className='input_container'>
         <label>City</label>
       <input type='name' value={city}
       onChange={(e)=>{
         setCity(e.target.value)
       }}/>
         </div>
-        <div><button type='submit'
+        <div class="button_container">
+          <input type='submit' class="btn btn-success button_data" 
         onClick={(e)=>{
           e.preventDefault()
 
-          const myData = ({
-            index,
-            name,
-            course,
-            phone,
-            city
-          })
+          
 
-          fetch("http://localhost:9000/saveData" ,{
-            method:"POST",
-            headers:{"Content-type" : "application/json"},
-            body:JSON.stringify(myData)
+          axios.post("http://localhost:9000/saveData" ,{
+          index,
+          name,
+          course,
+          phone,
+          city
           }).then((res)=>{
             console.log(res)
             alert("Data Saved")
@@ -114,9 +113,13 @@ function Add() {
               return pre
             }
           })
-        }}>Submit</button></div>
+        }}/></div>
+        </form>
+
+
       </div>
-      </div>
+
+
     </div>
   );
 }
