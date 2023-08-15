@@ -1,0 +1,67 @@
+.update_container {
+    display: grid;
+    justify-content: center;
+}
+form{
+    display: grid;
+    justify-content: center;
+}
+
+.search_container{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+
+.search_container button{
+    width: 150px;
+}
+
+.update_button{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.update_button button{
+    width: 150px;
+    margin-top: 40px;
+}
+
+.update_center{
+    width: 900px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.read_data{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.name_container{
+    width: 450px;
+
+
+}
+
+.phone_container{
+    width: 450px;
+    margin-left: 50px;
+
+}
+
+.datas{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.all_updates input{
+    border: none;
+    border-bottom: 2px black solid;
+}

@@ -28,6 +28,8 @@ function Read() {
 
   return (
     <div class="read_container">
+      <div class="header_container"><h2>Read Data</h2></div>
+      
       <div>
         <div class="input_id">
           <span>Enter Input Id : </span>

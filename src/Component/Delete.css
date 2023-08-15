@@ -1,12 +1,13 @@
-.read_container{
+.delete_container{
     display: grid;
-    justify-content: center;    
+    justify-content: center;
 }
+
 .input_id{
     width: 700px;
     height: 150px;
     background-color: darkgrey;
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
     padding: 0rem 3rem 0rem 3rem;
@@ -37,7 +38,7 @@
 }
 
 .data_container{
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
 }
@@ -77,4 +78,15 @@
 
 .header_container h2{
     font-size: 2.5rem;
+}
+
+.delete_button{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.delete_button button{
+    width: 150px;
+    margin-top: 20px;
 }
