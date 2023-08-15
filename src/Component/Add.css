@@ -16,8 +16,8 @@
 }
 
 .center_container{
-    width: 600px;
-    height: 350px;
+    width: 800px;
+    height: 400px;
     background-color: darkgrey;
     border-radius: 20px;
 }
@@ -33,6 +33,7 @@
 .input_container input{
     width: 250px;
     font-size: 20px;
+    border-radius: 7px;
 }
 
 .button_container{
@@ -48,5 +49,5 @@
 
 .button_data{
     width: 150px;
-    margin-left: -50px;
+
 }
